@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>MyDeals.Domain</RootNamespace>
+    <AssemblyName>MyDeals.Domain</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="NSwag.AspNetCore" />
+  </ItemGroup>
+
+</Project>
