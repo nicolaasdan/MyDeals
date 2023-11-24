@@ -26,7 +26,6 @@ app.UseHealthChecks("/health");
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-// changed from swaggerUI3
 app.UseSwaggerUi(settings =>
 {
     settings.Path = "/api";
